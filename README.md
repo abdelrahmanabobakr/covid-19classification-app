@@ -1,19 +1,46 @@
-# 🎈 Blank app template
+# COVID-19 Classification App
 
-A simple Streamlit app template for you to modify!
+[**Live Demo: Access the Application Here**](https://blank-app-tj7yv0lyrrb.streamlit.app/)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+A Streamlit-based web application for classifying X-ray images into three categories: **Covid**, **Normal**, and **Viral Pneumonia** using a deep learning model.
 
-### How to run it on your own machine
+---
 
-1. Install the requirements
+## Features
+- **Image Upload**: Upload X-ray images in `.jpg`, `.png`, or `.jpeg` formats.
+- **Real-time Prediction**: Classifies images using a pre-trained TensorFlow model.
+- **Three Classes**: The model predicts whether the X-ray image shows:
+  - Covid
+  - Normal
+  - Viral Pneumonia
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+---
 
-2. Run the app
+## Prerequisites
+Ensure you have the following installed:
+- Python 3.8 or higher
+- Necessary libraries listed in `requirements.txt`
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+---
+
+## covid-19classification-app/
+│
+├── covid_app.py          
+
+├── requirements.txt      
+
+├── README.md             
+
+└── covid_19_model.h5     
+---
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+## Author
+Developed by Abdelrahman Abobakr / Mohamed magdy / Ahmed mohamed / mohamed tharwat .
+For any inquiries, contact me at: abdelrahmana.bakr14@gmail.com.
+
+
+
