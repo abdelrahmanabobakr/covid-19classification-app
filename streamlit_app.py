@@ -42,7 +42,7 @@ if uploaded_image is not None:  # Check if an image is uploaded
     
     # Convert the image to grayscale (optional if the image is colored)
     if new_image.ndim == 2:
-        new_image = cv2.cvtColor(new_image, cv2.COLOR_BGR2GRAY)
+        new_image = cv2.cvtColor(new_image, cv2.COLOR_GRAY2BGR)
     
     # Normalize the image
     new_image = new_image.astype('float32') / 255.0
